@@ -5,9 +5,6 @@ import Head from "next/head";
 import Router from "next/router";
 import "assets/scss/style.scss";
 import "assets/scss/style.css";
-import "assets/css/templatemo-onix-digital.css";
-import "assets/css/animated.css";
-import "assets/css/owl.css";
 import PageChange from "../components/PageChange/PageChange.js";
 import SSRProvider from "react-bootstrap/SSRProvider";
 

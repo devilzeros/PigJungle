@@ -1,10 +1,7 @@
 import Head from 'next/head';
 import IndexLayout from "components/layouts/IndexLayout";
 import { useRouter } from 'next/router';
-import SlideHome from 'container/home/home-banner';
-import HomeAbout from 'container/home/home-about';
-import HomeVideo from 'container/video/video-views';
-import VideoGallery from 'container/home/home-videogallery';
+
 export default function HomePage() {
   const router = useRouter();
   return (
@@ -18,10 +15,7 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <SlideHome />
-        <HomeAbout />
-        <HomeVideo />
-        <VideoGallery />
+aa
       </div>
     </>
   );
